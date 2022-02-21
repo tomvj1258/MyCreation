@@ -1,0 +1,49 @@
+.boys{
+    background-color: lightblue;
+    font-family: sans-serif;
+    padding: 30px;
+    margin: 50px;
+    border-left: 3px blue solid;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.girls{
+    background-color: lightpink;
+    font-family:'Courier New', Courier, monospace;
+    padding: 30px;
+    margin: 50px;
+    border-left: 3px rgb(250, 66, 97) solid;
+    list-style-type: square;
+    list-style-position: inside;
+
+}
+div{
+     background-color: lightgray;
+     padding: 30px;
+     border-radius: 50px;
+     border: 3px black solid;
+}
+body{
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: auto;
+
+    
+}
+li{
+    padding: 5px;
+}
+p{
+    text-align: center;
+    border: 4px black solid;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    display: inline;
+    margin-left: 250px;
+}
+.divradius{
+    border-top-left-radius: 10px;
+    border
+}
