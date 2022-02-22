@@ -20,8 +20,10 @@
 div{
      background-color: lightgray;
      padding: 30px;
-     border-radius: 50px;
-     border: 3px black solid;
+    }
+.divradius{
+    border: 2px solid brown;
+    border-radius: 35px;
 }
 body{
     padding: 50px;
@@ -36,14 +38,46 @@ li{
 }
 p{
     text-align: center;
-    border: 4px black solid;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: brown;
-    display: inline;
-    margin-left: 250px;
+    border: 2.5px black solid;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: brown; 
+    border-radius: 10px;
 }
-.divradius{
-    border-top-left-radius: 10px;
-    border
+table{
+    width: 100%;
+    text-align: center;
+    /* border-collapse: collapse; */
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 2px solid brown;
+    table-layout: fixed;
+    border-spacing: 5px ;
+}
+table thead tr td{
+    border: 3px solid red;
+    }
+.border td,.border th,.border table {
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+.border td:hover{
+    background-color: rgb(177, 176, 176) !important;
+}
+.border th:nth-child(odd), .border tr:nth-child(even) td:nth-child(odd),
+.border tr:nth-child(odd) td:nth-child(even){
+    background-color: black;
+    color: white;
+}
+.noborder th, .noborder tr, .noborder td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+.noborder tbody tr:nth-child(3n){
+    background-color: lightcoral;
 }
