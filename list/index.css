@@ -1,30 +1,30 @@
 .boys{
-    background-color: lightblue;
+    background-image: radial-gradient(pink, darkblue);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: bold;
     padding: 30px;
     margin: 50px;
     border-left: 3px blue solid;
-    border-radius: 5px;
+    border-radius: 15px;
     list-style-type: circle;
     list-style-position: inside;
 }
 .girls{
-    background-color: lightpink;
+    background-image: radial-gradient( grey,gold );
     font-family:'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
     padding: 30px;
     margin: 50px;
     border-left: 3px rgb(250, 66, 97) solid;
-    border-radius: 5px;
+    border-radius: 15px;
     list-style-type: square;
     list-style-position: inside;
 
 }
 div{
-     background-color: lightgray;
+     background-image: linear-gradient(to top right, lightblue, purple, lightgreen);
      padding: 30px;
     
 }
@@ -34,7 +34,7 @@ p{
     border-radius: 10px;
     padding: 10px;
     font-size: 40px;
-    color: brown;
+    color: rgb(10, 10, 10);
     }
 li{
     padding: 5px;

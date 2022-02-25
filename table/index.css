@@ -1,7 +1,7 @@
-.divradius{
-    border: 2px solid brown;
+.center{
+    background-image: linear-gradient(to top left, rgb(89, 215, 247),rgb(218, 64, 238));
     border-radius: 35px;
-    padding: 25px;
+    padding: 50px;
 }
 li{
     padding: 5px;
@@ -19,9 +19,9 @@ table{
     width: 100%;
     text-align: center;
     /* border-collapse: collapse; */
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
+    background-image: radial-gradient(lightgreen, rgb(175, 175, 253));
+    border-radius: 20px;
+    padding: 20px;
     border-left: 2px solid brown;
     table-layout: fixed;
     border-spacing: 5px ;
@@ -32,18 +32,19 @@ table thead tr td{
 .border td,.border th,.border table {
     /* border: 2px solid black; */
     border-collapse: collapse;
-    padding: 10px;
     
 }
 .border{
     background-color: white;
     border-left: 2px solid brown ;
-    border-radius: 10px;
+    border-radius: 19px;
     padding: 50px;
 
 }
-.border td:hover{
+.border td:hover, .border th:hover{
     background-color: rgb(177, 176, 176) !important;
+    font-size: 15px;
+    font-weight: bold;
 }
 .border th:nth-child(odd), .border tr:nth-child(even) td:nth-child(odd),
 .border tr:nth-child(odd) td:nth-child(even){
@@ -65,9 +66,9 @@ table thead tr td{
     padding: 5px;
 }
 .rainbow {
-    background-color: white;
+    background-image: radial-gradient(rgb(136, 25, 49),rgb(245, 242, 88));
     border-left: 2px solid brown ;
-    border-radius: 10px;
+    border-radius: 19px;
     padding: 50px;
 }
 .rainbow td:hover,.rainbow th:hover{
