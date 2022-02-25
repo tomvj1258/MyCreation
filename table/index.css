@@ -1,0 +1,214 @@
+.divradius{
+    border: 2px solid brown;
+    border-radius: 35px;
+    padding: 25px;
+}
+li{
+    padding: 5px;
+}
+p{
+    text-align: center;
+    border: 2.5px black solid;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: brown; 
+    border-radius: 10px;
+    padding: 5px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    /* border-collapse: collapse; */
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 2px solid brown;
+    table-layout: fixed;
+    border-spacing: 5px ;
+}
+table thead tr td{
+    border: 3px solid red;
+    }
+.border td,.border th,.border table {
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+.border{
+    background-color: white;
+    border-left: 2px solid brown ;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+.border td:hover{
+    background-color: rgb(177, 176, 176) !important;
+}
+.border th:nth-child(odd), .border tr:nth-child(even) td:nth-child(odd),
+.border tr:nth-child(odd) td:nth-child(even){
+    background-color: black;
+    color: white;
+}
+.noborder th, .noborder tr, .noborder td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+.noborder tbody tr:nth-child(3n){
+    background-color: lightcoral;
+}
+.rainbow td, .rainbow th, .rainbow table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.rainbow {
+    background-color: white;
+    border-left: 2px solid brown ;
+    border-radius: 10px;
+    padding: 50px;
+}
+.rainbow td:hover,.rainbow th:hover{
+    background-color: grey !important;
+    color: black;
+    font-weight: bold;
+
+}
+.rainbow  tr:nth-child(8n+1) td:nth-child(8n+1),
+.rainbow  tr:nth-child(8n+2) td:nth-child(8n+2),
+.rainbow  tr:nth-child(8n+3) td:nth-child(8n+3),
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+8)
+{
+    background-color: violet;
+}
+.rainbow  tr:nth-child(8n+2) td:nth-child(8n+1),
+.rainbow  tr:nth-child(8n+3) td:nth-child(8n+2),
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+3),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+9) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+1) td:nth-child(8n+2),
+.rainbow  tr:nth-child(8n+2) td:nth-child(8n+3),
+.rainbow  tr:nth-child(8n+3) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+9)
+
+{
+    background-color: indigo;
+}
+
+.rainbow  tr:nth-child(8n+3) td:nth-child(8n+1),
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+2),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+3),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+9) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+10) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+1) td:nth-child(8n+3),
+.rainbow  tr:nth-child(8n+2) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+3) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+9),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+10)
+
+{
+    background-color: blue;
+}
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+1),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+2),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+3),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+9) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+10) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+11) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+1) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+2) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+3) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+9),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+10),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+11)
+
+{
+    background-color: green;
+}
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+1),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+2),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+3),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+9) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+10) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+11) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+12) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+1) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+2) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+3) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+9),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+10),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+11),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+12)
+
+{
+    background-color: yellow;
+}
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+1),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+2),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+3),
+.rainbow  tr:nth-child(8n+9) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+10) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+11) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+12) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+13) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+1) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+2) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+3) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+9),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+10),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+11),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+12),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+13)
+
+{
+    background-color: orange;
+}
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+1),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+2),
+.rainbow  tr:nth-child(8n+9) td:nth-child(8n+3),
+.rainbow  tr:nth-child(8n+10) td:nth-child(8n+4),
+.rainbow  tr:nth-child(8n+11) td:nth-child(8n+5),
+.rainbow  tr:nth-child(8n+12) td:nth-child(8n+6),
+.rainbow  tr:nth-child(8n+13) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+14) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+1) td:nth-child(8n+7),
+.rainbow  tr:nth-child(8n+2) td:nth-child(8n+8),
+.rainbow  tr:nth-child(8n+3) td:nth-child(8n+9),
+.rainbow  tr:nth-child(8n+4) td:nth-child(8n+10),
+.rainbow  tr:nth-child(8n+5) td:nth-child(8n+12),
+.rainbow  tr:nth-child(8n+6) td:nth-child(8n+13),
+.rainbow  tr:nth-child(8n+7) td:nth-child(8n+14),
+.rainbow  tr:nth-child(8n+8) td:nth-child(8n+15)
+
+{
+    background-color: red;
+}
+.rainbow th:nth-child()
+{
+    background-color: violet;
+}
