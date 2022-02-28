@@ -1,0 +1,74 @@
+@font-face{
+    font-family: 'Alice';    
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./Alice-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Gentium Basic';
+    font-style: normal;
+    font-size: 400;
+    src: url(./GentiumBasic-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Gentium Basic';
+    font-style: italic;
+    font-size: 400;
+    font-display: swap;
+    src: url(./GentiumBasic-Italic.ttf)
+    
+}
+
+@font-face{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(./CormorantGaramond-Light.ttf);
+}
+
+@font-face{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./CormorantGaramond-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 700; 
+    src: url(./CormorantGaramond-BoldItalic.ttf) format('woff2');
+  }
+
+@font-face{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./CormorantGaramond-Bold.ttf);
+
+}
+ 
+@font-face{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(./CormorantGaramond-SemiBold.ttf);
+
+}
+
+@font-face{
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url(./CormorantGaramond-BoldItalic.ttf);
+ }

@@ -1,5 +1,7 @@
+@import '../font/font.css';
+
 .center{
-    background-image: linear-gradient(to top left, rgb(89, 215, 247),rgb(218, 64, 238));
+    background-image: linear-gradient(to top left, red,transparent, lightgreen, yellow, transparent, brown);
     border-radius: 35px;
     padding: 50px;
 }
@@ -10,8 +12,8 @@ p{
     text-align: center;
     border: 2.5px black solid;
     font-size: 30px;
-    font-family: sans-serif;
-    color: brown; 
+    font-family: 'Alice';
+    color: black; 
     border-radius: 10px;
     padding: 5px;
 }
@@ -19,7 +21,7 @@ table{
     width: 100%;
     text-align: center;
     /* border-collapse: collapse; */
-    background-image: radial-gradient(lightgreen, rgb(175, 175, 253));
+    background-image: radial-gradient(lightgreen,yellow,transparent, rgb(175, 175, 253));
     border-radius: 20px;
     padding: 20px;
     border-left: 2px solid brown;
@@ -39,12 +41,14 @@ table thead tr td{
     border-left: 2px solid brown ;
     border-radius: 19px;
     padding: 50px;
+    font-family: 'Alice';
 
 }
 .border td:hover, .border th:hover{
     background-color: rgb(177, 176, 176) !important;
-    font-size: 15px;
+    font-size: 400;
     font-weight: bold;
+    font-family: 'Alice';
 }
 .border th:nth-child(odd), .border tr:nth-child(even) td:nth-child(odd),
 .border tr:nth-child(odd) td:nth-child(even){
@@ -61,7 +65,7 @@ table thead tr td{
     background-color: lightcoral;
 }
 .rainbow td, .rainbow th, .rainbow table{
-    border: 2px solid black;
+    border: 2px  black;
     border-collapse: collapse;
     padding: 5px;
 }
@@ -73,9 +77,16 @@ table thead tr td{
 }
 .rainbow td:hover,.rainbow th:hover{
     background-color: grey !important;
-    color: black;
+    color: white;
+    font-size: 400;
     font-weight: bold;
+    font-family: 'Alice';
 
+}
+
+.rainbow tr:nth-child(8), td:nth-child(8)
+{
+    background-color: white;
 }
 .rainbow  tr:nth-child(8n+1) td:nth-child(8n+1),
 .rainbow  tr:nth-child(8n+2) td:nth-child(8n+2),
