@@ -1,3 +1,5 @@
+@import './font/font.css';
+
 .tophead p{
     text-align: center;
     border: 2px outset red;
@@ -19,7 +21,7 @@ body{
     color: brown;
     font-size: 30px;
 }
- .index table, .index th,  .index tr, .index  td{
+.index table, .index th,  .index tr, .index  td{
     border: 2px groove black;
     border-radius: 15px;
     font-weight: bold;
@@ -89,4 +91,18 @@ footer{
 }
 span{
     border-top: 2px solid black;
+}
+.index tbody tr:nth-child(1) td:nth-child(1)
+{
+    font-family: 'Cormorant Garamond';
+}
+
+.index tbody tr:nth-child(2) td:nth-child(1)
+{
+    font-family: 'Alice';
+}
+
+.index tbody tr:nth-child(3) td:nth-child(1)
+{
+    font-family: 'Gentium Basic';
 }

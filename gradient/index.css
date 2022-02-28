@@ -1,0 +1,59 @@
+@import '../font/font.css';
+
+.gradient{
+    width: 75%;
+    margin: auto;
+    
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gentium Basic';
+
+}
+b{
+    border: 2px inset black;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: radial-gradient(circle, brown, blue);
+    color: rgb(243, 247, 2);
+}
+.design{
+    border: 3px outset black;
+    border-radius: 15px;
+    padding: 35px;
+    background-image: linear-gradient(to bottom right, transparent, red, transparent, blue, transparent, yellow, transparent) 
+
+}
+li{
+    padding: 5px;
+    list-style-position: inside;
+}
+.boys{
+    border: 3px outset black;
+    border-radius: 55px;
+    padding: 15px;
+    list-style-type: disc;
+    font-size: 20px;
+    background-image: repeating-linear-gradient(153deg, lightgreen,lightsalmon, transparent, yellow, transparent);
+    font-weight: bold;
+    font-family: 'Gentium Basic';
+   
+}
+.girls{
+    border: 3px outset black;
+    border-radius: 55px;
+    padding: 15px;
+    list-style-type: disc;
+    font-size: 20px;
+    background-image: repeating-conic-gradient(from 223deg, transparent, lightblue, brown,grey, transparent);
+    font-weight: bold;
+    font-family: 'Gentium Basic';
+}
+.gradient{
+    padding: 80px;
+    border-radius: 80px;
+    border: 2px solid black;
+    background-image: conic-gradient(from 180deg, black,blue,green,lightyellow,lightblue,violet);
+}
